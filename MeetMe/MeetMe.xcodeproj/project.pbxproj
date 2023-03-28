@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FAFF8CE29D3685F008C5015 /* MeetMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAFF8CD29D3685F008C5015 /* MeetMeApp.swift */; };
-		8FAFF8D029D3685F008C5015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAFF8CF29D3685F008C5015 /* ContentView.swift */; };
-		8FAFF8D229D36860008C5015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAFF8D129D36860008C5015 /* Assets.xcassets */; };
-		8FAFF8D529D36860008C5015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAFF8D429D36860008C5015 /* Preview Assets.xcassets */; };
+		040DF5CE29D38EC10010A745 /* MeetMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DF5CD29D38EC10010A745 /* MeetMeApp.swift */; };
+		040DF5D029D38EC10010A745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DF5CF29D38EC10010A745 /* ContentView.swift */; };
+		040DF5D229D38EC20010A745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040DF5D129D38EC20010A745 /* Assets.xcassets */; };
+		040DF5D529D38EC20010A745 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040DF5D429D38EC20010A745 /* Preview Assets.xcassets */; };
+		040DF5DC29D38EF30010A745 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DF5DB29D38EF30010A745 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FAFF8CA29D3685F008C5015 /* MeetMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FAFF8CD29D3685F008C5015 /* MeetMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeApp.swift; sourceTree = "<group>"; };
-		8FAFF8CF29D3685F008C5015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8FAFF8D129D36860008C5015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8FAFF8D429D36860008C5015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		040DF5CA29D38EC10010A745 /* MeetMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040DF5CD29D38EC10010A745 /* MeetMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeApp.swift; sourceTree = "<group>"; };
+		040DF5CF29D38EC10010A745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		040DF5D129D38EC20010A745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040DF5D429D38EC20010A745 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		040DF5DB29D38EF30010A745 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8FAFF8C729D3685F008C5015 /* Frameworks */ = {
+		040DF5C729D38EC10010A745 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8FAFF8C129D3685F008C5015 = {
+		040DF5C129D38EC10010A745 = {
 			isa = PBXGroup;
 			children = (
-				8FAFF8CC29D3685F008C5015 /* MeetMe */,
-				8FAFF8CB29D3685F008C5015 /* Products */,
+				040DF5CC29D38EC10010A745 /* MeetMe */,
+				040DF5CB29D38EC10010A745 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8FAFF8CB29D3685F008C5015 /* Products */ = {
+		040DF5CB29D38EC10010A745 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FAFF8CA29D3685F008C5015 /* MeetMe.app */,
+				040DF5CA29D38EC10010A745 /* MeetMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FAFF8CC29D3685F008C5015 /* MeetMe */ = {
+		040DF5CC29D38EC10010A745 /* MeetMe */ = {
 			isa = PBXGroup;
 			children = (
-				8FAFF8CD29D3685F008C5015 /* MeetMeApp.swift */,
-				8FAFF8CF29D3685F008C5015 /* ContentView.swift */,
-				8FAFF8D129D36860008C5015 /* Assets.xcassets */,
-				8FAFF8D329D36860008C5015 /* Preview Content */,
+				040DF5CD29D38EC10010A745 /* MeetMeApp.swift */,
+				040DF5CF29D38EC10010A745 /* ContentView.swift */,
+				040DF5DB29D38EF30010A745 /* CardView.swift */,
+				040DF5D129D38EC20010A745 /* Assets.xcassets */,
+				040DF5D329D38EC20010A745 /* Preview Content */,
 			);
 			path = MeetMe;
 			sourceTree = "<group>";
 		};
-		8FAFF8D329D36860008C5015 /* Preview Content */ = {
+		040DF5D329D38EC20010A745 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8FAFF8D429D36860008C5015 /* Preview Assets.xcassets */,
+				040DF5D429D38EC20010A745 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FAFF8C929D3685F008C5015 /* MeetMe */ = {
+		040DF5C929D38EC10010A745 /* MeetMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FAFF8D829D36860008C5015 /* Build configuration list for PBXNativeTarget "MeetMe" */;
+			buildConfigurationList = 040DF5D829D38EC20010A745 /* Build configuration list for PBXNativeTarget "MeetMe" */;
 			buildPhases = (
-				8FAFF8C629D3685F008C5015 /* Sources */,
-				8FAFF8C729D3685F008C5015 /* Frameworks */,
-				8FAFF8C829D3685F008C5015 /* Resources */,
+				040DF5C629D38EC10010A745 /* Sources */,
+				040DF5C729D38EC10010A745 /* Frameworks */,
+				040DF5C829D38EC10010A745 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +87,25 @@
 			);
 			name = MeetMe;
 			productName = MeetMe;
-			productReference = 8FAFF8CA29D3685F008C5015 /* MeetMe.app */;
+			productReference = 040DF5CA29D38EC10010A745 /* MeetMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8FAFF8C229D3685F008C5015 /* Project object */ = {
+		040DF5C229D38EC10010A745 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					8FAFF8C929D3685F008C5015 = {
-						CreatedOnToolsVersion = 14.2;
+					040DF5C929D38EC10010A745 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 8FAFF8C529D3685F008C5015 /* Build configuration list for PBXProject "MeetMe" */;
+			buildConfigurationList = 040DF5C529D38EC10010A745 /* Build configuration list for PBXProject "MeetMe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 8FAFF8C129D3685F008C5015;
-			productRefGroup = 8FAFF8CB29D3685F008C5015 /* Products */;
+			mainGroup = 040DF5C129D38EC10010A745;
+			productRefGroup = 040DF5CB29D38EC10010A745 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FAFF8C929D3685F008C5015 /* MeetMe */,
+				040DF5C929D38EC10010A745 /* MeetMe */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8FAFF8C829D3685F008C5015 /* Resources */ = {
+		040DF5C829D38EC10010A745 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FAFF8D529D36860008C5015 /* Preview Assets.xcassets in Resources */,
-				8FAFF8D229D36860008C5015 /* Assets.xcassets in Resources */,
+				040DF5D529D38EC20010A745 /* Preview Assets.xcassets in Resources */,
+				040DF5D229D38EC20010A745 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8FAFF8C629D3685F008C5015 /* Sources */ = {
+		040DF5C629D38EC10010A745 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FAFF8D029D3685F008C5015 /* ContentView.swift in Sources */,
-				8FAFF8CE29D3685F008C5015 /* MeetMeApp.swift in Sources */,
+				040DF5D029D38EC10010A745 /* ContentView.swift in Sources */,
+				040DF5DC29D38EF30010A745 /* CardView.swift in Sources */,
+				040DF5CE29D38EC10010A745 /* MeetMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8FAFF8D629D36860008C5015 /* Debug */ = {
+		040DF5D629D38EC20010A745 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -205,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		8FAFF8D729D36860008C5015 /* Release */ = {
+		040DF5D729D38EC20010A745 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -259,7 +263,7 @@
 			};
 			name = Release;
 		};
-		8FAFF8D929D36860008C5015 /* Debug */ = {
+		040DF5D929D38EC20010A745 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,7 +291,7 @@
 			};
 			name = Debug;
 		};
-		8FAFF8DA29D36860008C5015 /* Release */ = {
+		040DF5DA29D38EC20010A745 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -318,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FAFF8C529D3685F008C5015 /* Build configuration list for PBXProject "MeetMe" */ = {
+		040DF5C529D38EC10010A745 /* Build configuration list for PBXProject "MeetMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FAFF8D629D36860008C5015 /* Debug */,
-				8FAFF8D729D36860008C5015 /* Release */,
+				040DF5D629D38EC20010A745 /* Debug */,
+				040DF5D729D38EC20010A745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FAFF8D829D36860008C5015 /* Build configuration list for PBXNativeTarget "MeetMe" */ = {
+		040DF5D829D38EC20010A745 /* Build configuration list for PBXNativeTarget "MeetMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FAFF8D929D36860008C5015 /* Debug */,
-				8FAFF8DA29D36860008C5015 /* Release */,
+				040DF5D929D38EC20010A745 /* Debug */,
+				040DF5DA29D38EC20010A745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8FAFF8C229D3685F008C5015 /* Project object */;
+	rootObject = 040DF5C229D38EC10010A745 /* Project object */;
 }
